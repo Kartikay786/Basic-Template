@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 246, 198);
+}
+nav{
+    height:14vh;
+    width: 100%;
+    /* background-color: black; */
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navstart{
+    width: 200px;
+}
+.navmid a{
+    padding: 0px 32px;
+    /* background-color: black; */
+    font-size: 13px;
+    color: rgba(117, 117, 117, 0.829);
+    font-weight: 600;
+}
+.navend{
+    height: 40px;
+    width: 140px;
+    margin:0px 40px;
+    background-color: rgb(183, 252, 93);
+}
+.navend div{
+    width: 132px;
+    height: 32px;
+    border-radius: 20px;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 13px;
+    font-weight: 800;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(217, 58, 58);
+    display: flex;
+}
+.mainleft{
+    height: 100%;
+    width: 46%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainright{
+    height: 100%;
+    width: 54%;
+    /* background-color: green; */
+    position: relative;
+}
+.mainleft h1{
+    font-size: 70px;
+    font-weight: 800;
+    padding-left: 150px;
+}
+#appbutton{
+    height: 33px;
+    width: 136px;
+    font-size: 13px;
+    margin-left: 150px;
+    background-color:rgb(183, 252, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    border-radius: 2px;
+}
+#txt{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(117, 116, 116, 0.937);
+    padding-left: 150px;
+}
+#maindiv{
+    height: 45px;
+    /* background-color: black; */
+    margin: 50px 140px ;
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+#maindivbutton{
+    height: 45px;
+    width: 150px;
+    background-color:rgb(183, 252, 93);
+}
+#maindivbuttontxt{
+    width: 142px;
+    height: 37px;
+    border-radius: 20px;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 13px;
+    font-weight: 800;
+}
+#maindivbuttondemo{
+    height:45px ;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#maindivbuttondemo h4{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 800;
+}
+#cir{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 8px solid black;
+    
+}
+#mainrightbase{
+    height:78%;
+    width: 72%;
+    background-color:rgba(154, 231, 54, 0.905) ;
+    margin: 105px 50px 100px 150px;
+    border-radius: 10px;
+   position: absolute;
+}
+.elem1{
+    height: 56vh;
+    width: 310px;
+    background-image: url(elem1.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    position: absolute;
+    border-radius: 12px;
+    margin: 210px 800px 30px 100px;
+}
+.elem2{
+    height: 56vh;
+    width: 310px;
+    background-image: url(elem2.webp);
+    background-size: cover;
+    background-repeat: none;
+     position: absolute;
+    border-radius: 12px;
+    margin: 50px 0px 0px 335px;
+}
